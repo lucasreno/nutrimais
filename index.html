@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nutri+</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
     <header>
         <h1>Nutri+</h1>
@@ -21,9 +24,9 @@
         <section id="sobre">
             <h2>Sobre</h2>
             <p>
-                A Nutri+ é uma empresa que atua no 
-                ramo de nutrição e saúde, com o objetivo 
-                de ajudar as pessoas a terem uma vida mais 
+                A Nutri+ é uma empresa que atua no
+                ramo de nutrição e saúde, com o objetivo
+                de ajudar as pessoas a terem uma vida mais
                 saudável e com mais qualidade de vida.
             </p>
         </section>
@@ -37,7 +40,22 @@
                 <li>Palestras</li>
             </ul>
         </section>
-        <section id="contato"></section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
+    <footer>
+        <p>&copy; 2023 - Nutri+</p>
+    </footer>
 </body>
+
 </html>
